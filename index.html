@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Family Fitness</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.css" />
+  <link rel="stylesheet" href="assets/css/templatemo-training-studio.css" />
+
+  <style>
+    /* kleine Zusätze */
+    .subtitle{font-size:1.1rem;font-style:italic;opacity:.9}
+    .workout-day{margin-bottom:2rem}
+    iframe{width:100%;height:250px;border-radius:10px;margin:10px 0}
+    .section-heading img{width:120px;height:auto}
+    .hero video{object-fit:cover;width:100%;height:100%}
+    .hero .caption{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
+    .hero h2{font-size:2.2rem}
+    @media (min-width:992px){ .hero h2{font-size:3rem} iframe{height:300px} }
+  </style>
+</head>
+<body>
+
+  <!-- Header (Template-Stil) -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row"><div class="col-12">
+        <nav class="main-nav">
+          <a href="#top" class="logo">Family<em> Fitness</em></a>
+          <ul class="nav">
+            <li class="scroll-to-section"><a href="#mama" class="active">Petra</a></li>
+            <li class="scroll-to-section"><a href="#papa">Haymo</a></li>
+            <li class="scroll-to-section"><a href="#musik">Musik</a></li>
+            <li class="scroll-to-section"><a href="#contact">Kontakt</a></li>
+          </ul>
+          <a class="menu-trigger"><span>Menu</span></a>
+        </nav>
+      </div></div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+<div class="main-banner hero" id="top">
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/images/gym-video.mp4" type="video/mp4" />
+  </video>
+  <div class="video-overlay">
+    <div class="caption">
+      <h6 data-scroll-reveal="enter top move 30px over 0.6s after 0.2s">
+        Gemeinsam dranbleiben
+      </h6>
+      <h2 data-scroll-reveal="enter left move 40px over 0.8s after 0.4s">
+        Fit mit <em>Mama &amp; Papa</em>
+      </h2>
+      <p class="subtitle" data-scroll-reveal="enter bottom move 30px over 0.8s after 0.6s">
+        Jeder Tag ist ein neuer Schritt zu mehr Energie!
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Mama -->
+  <section class="section" id="mama">
+    <div class="container">
+      <div class="row"><div class="col-lg-6 offset-lg-3">
+        <div class="section-heading">
+          <h2>Plan für <em>Petra</em></h2>
+          <img src="assets/images/line-dec.png" alt="Dekolinie" />
+          <p>Jeden Tag: 3 Übungen (3 Wdh) + Laufband</p>
+        </div>
+      </div></div>
+      <div id="mama-plans" class="row"></div>
+    </div>
+  </section>
+
+  <!-- Papa -->
+  <section class="section" id="papa">
+    <div class="container">
+      <div class="row"><div class="col-lg-6 offset-lg-3">
+        <div class="section-heading">
+          <h2>Plan für <em>Haymo</em></h2>
+          <img src="assets/images/line-dec.png" alt="Dekolinie" />
+          <p>Jeden Tag: 3 Übungen (4 Wdh) + Laufband</p>
+        </div>
+      </div></div>
+      <div id="papa-plans" class="row"></div>
+    </div>
+  </section>
+
+  <!-- Musik -->
+  <section class="section" id="musik">
+    <div class="container">
+      <div class="row"><div class="col-lg-6 offset-lg-3">
+        <div class="section-heading">
+          <h2>Musik <em>für dein Workout</em></h2>
+          <img src="assets/images/line-dec.png" alt="Dekolinie" />
+          <p>Hier findest du motivierende Musik für dein Training!</p>
+        </div>
+      </div></div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://www.youtube.com/watch?v=JYNa_9pYLGw&list=RDJYNa_9pYLGw&start_radio=1" target="_blank" class="musik-thumbnail" style="display:block;position:relative;text-align:center;">
+            <h4 class="musik-video-title" style="font-weight:bold;color:#232d39;margin-bottom:18px;text-decoration:none;">House Musik</h4>
+            <img src="https://img.youtube.com/vi/JYNa_9pYLGw/hqdefault.jpg" alt="HouseMusic" style="width:100%;border-radius:10px;">
+            <span style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;color:white;text-shadow:0 0 10px #000;pointer-events:none;">
+              ▶
+            </span>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://www.youtube.com/watch?v=AFxXwUBDaso&list=RDAFxXwUBDaso&start_radio=1" target="_blank" class="musik-thumbnail" style="display:block;position:relative;text-align:center;">
+            <h4 class="musik-video-title" style="font-weight:bold;color:#232d39;margin-bottom:18px;text-decoration:none;">Spanisch Remix</h4>
+            <img src="https://img.youtube.com/vi/AFxXwUBDaso/hqdefault.jpg" alt="Spanisch Remix" style="width:100%;border-radius:10px;">
+            <span style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;color:white;text-shadow:0 0 10px #000;pointer-events:none;">
+              ▶
+            </span>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://www.youtube.com/watch?v=uTsNtI8OLRw&list=RDuTsNtI8OLRw&start_radio=1" target="_blank" class="musik-thumbnail" style="display:block;position:relative;text-align:center;">
+            <h4 class="musik-video-title" style="font-weight:bold;color:#232d39;margin-bottom:18px;text-decoration:none;">Afro Musik</h4>
+            <img src="https://img.youtube.com/vi/uTsNtI8OLRw/hqdefault.jpg" alt="Afro Musik" style="width:100%;border-radius:10px;">
+            <span style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;color:white;text-shadow:0 0 10px #000;pointer-events:none;">
+              ▶
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section class="section" id="contact" style="background:url('assets/images/contact-bg.jpg') center/cover no-repeat;">
+    <div class="container">
+      <div class="row"><div class="col-lg-6 offset-lg-3">
+        <div class="section-heading dark-bg">
+          <h2>Viel <em>Spaß!</em></h2>
+          <img src="assets/images/line-dec.png" alt="Dekolinie" />
+          <p>Fragen oder Wünsche? Einfach Bescheid sagen 😊</p>
+          <p>Email: <a href="mailto:corawackermann@gmx.de">corawackermann@gmx.de</a></p>
+          <a href="https://chat.whatsapp.com/https://chat.whatsapp.com/Jlxuga2uI098Wb6pZU60Pp" target="_blank" class="btn btn-success" style="margin-top:10px;">
+            Family What's App Gruppe
+          </a>
+        </div>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- JS: Reihenfolge wichtig -->
+  <script src="assets/js/jquery-2.1.0.min.js"></script>
+  <script src="assets/js/popper.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/imgfix.min.js"></script>
+  <script src="assets/js/mixitup.js"></script>
+  <script src="assets/js/accordions.js"></script>
+
+  <!-- Template-Init -->
+  <script src="assets/js/custom.js"></script>
+
+  <!-- Deine Plan-Logik (3 Pläne, Wechsel alle 2 Monate) -->
+  <script>
+    const allePlaene = [
+      { // Plan 1 (Jan+Feb)
+        mama: {
+          tag1:[
+            {name:"Rudern am Kabel (3×)", video:"https://www.youtube.com/embed/DEIN_LINK1"},
+            {name:"Beinbeuger (3×)", video:"https://www.youtube.com/embed/DEIN_LINK2"},
+            {name:"Schulterdrücken (3×)", video:"https://www.youtube.com/embed/DEIN_LINK3"}
+          ],
+          tag2:[
+            {name:"Crunches (3×)", video:"https://www.youtube.com/embed/DEIN_LINK4"},
+            {name:"Ausfallschritte (3×)", video:"https://www.youtube.com/embed/DEIN_LINK5"},
+            {name:"Seitheben (3×)", video:"https://www.youtube.com/embed/DEIN_LINK6"}
+          ],
+          tag3:[
+            {name:"Bizepscurls (3×)", video:"https://www.youtube.com/embed/DEIN_LINK7"},
+            {name:"Trizepsdrücken (3×)", video:"https://www.youtube.com/embed/DEIN_LINK8"},
+            {name:"Plank (30 Sek.)", video:"https://www.youtube.com/embed/DEIN_LINK9"}
+          ],
+          laufband:["15 Min Joggen","20 Min Walken","10 Min Intervall"]
+        },
+        papa: {
+          tag1:[
+            {name:"Brustpresse (4×)", video:"https://www.youtube.com/embed/DEIN_LINK10"},
+            {name:"Latzug (4×)", video:"https://www.youtube.com/embed/DEIN_LINK11"},
+            {name:"Beinpresse (4×)", video:"https://www.youtube.com/embed/DEIN_LINK12"}
+          ],
+          tag2:[
+            {name:"Butterfly (4×)", video:"https://www.youtube.com/embed/DEIN_LINK13"},
+            {name:"Bizepscurls (4×)", video:"https://www.youtube.com/embed/DEIN_LINK14"},
+            {name:"Rudern am Kabel (4×)", video:"https://www.youtube.com/embed/DEIN_LINK15"}
+          ],
+          tag3:[
+            {name:"Schulterdrücken (4×)", video:"https://www.youtube.com/embed/DEIN_LINK16"},
+            {name:"Beinheben (4×)", video:"https://www.youtube.com/embed/DEIN_LINK17"},
+            {name:"Trizepsdrücken (4×)", video:"https://www.youtube.com/embed/DEIN_LINK18"}
+          ],
+          laufband:["5 Min Gehen","8 Min Walken","5 Min Steigung"]
+        }
+      },
+      { // Plan 2 (März+Apr)
+        mama:{
+          tag1:[
+            {name:"Latziehen (3×)", video:"https://www.youtube.com/embed/DEIN_LINK19"},
+            {name:"Beinpresse (3×)", video:"https://www.youtube.com/embed/DEIN_LINK20"},
+            {name:"Seitstütz (3×)", video:"https://www.youtube.com/embed/DEIN_LINK21"}
+          ],
+          tag2:[
+            {name:"Kniebeugen (3×)", video:"https://www.youtube.com/embed/DEIN_LINK22"},
+            {name:"Rückenstrecker (3×)", video:"https://www.youtube.com/embed/DEIN_LINK23"},
+            {name:"Seilspringen (3 Min)", video:"https://www.youtube.com/embed/DEIN_LINK24"}
+          ],
+          tag3:[
+            {name:"Liegestütze (3×)", video:"https://www.youtube.com/embed/DEIN_LINK25"},
+            {name:"Ausfallschritte (3×)", video:"https://www.youtube.com/embed/DEIN_LINK26"},
+            {name:"Plank (45 Sek.)", video:"https://www.youtube.com/embed/DEIN_LINK27"}
+          ],
+          laufband:["12 Min Joggen","18 Min Walken","15 Min Intervall"]
+        },
+        papa:{
+          tag1:[
+            {name:"Butterfly (4×)", video:"https://www.youtube.com/embed/DEIN_LINK28"},
+            {name:"Trizepsdrücken (4×)", video:"https://www.youtube.com/embed/DEIN_LINK29"},
+            {name:"Beinpresse (4×)", video:"https://www.youtube.com/embed/DEIN_LINK30"}
+          ],
+          tag2:[
+            {name:"Latziehen (4×)", video:"https://www.youtube.com/embed/DEIN_LINK31"},
+            {name:"Bizepscurls (4×)", video:"https://www.youtube.com/embed/DEIN_LINK32"},
+            {name:"Rudern am Kabel (4×)", video:"https://www.youtube.com/embed/DEIN_LINK33"}
+          ],
+          tag3:[
+            {name:"Schulterdrücken (4×)", video:"https://www.youtube.com/embed/DEIN_LINK34"},
+            {name:"Crunches (4×)", video:"https://www.youtube.com/embed/DEIN_LINK35"},
+            {name:"Beinheben (4×)", video:"https://www.youtube.com/embed/DEIN_LINK36"}
+          ],
+          laufband:["7 Min Gehen","10 Min Walken","5 Min Steigung"]
+        }
+      },
+      { // Plan 3 (Mai+Juni)
+        mama:{
+          tag1:[
+            {name:"Stepper (3×)", video:"https://www.youtube.com/embed/DEIN_LINK37"},
+            {name:"Kniebeugen (3×)", video:"https://www.youtube.com/embed/DEIN_LINK38"},
+            {name:"Seitheben (3×)", video:"https://www.youtube.com/embed/DEIN_LINK39"}
+          ],
+          tag2:[
+            {name:"Crunches (3×)", video:"https://www.youtube.com/embed/DEIN_LINK40"},
+            {name:"Beinpresse (3×)", video:"https://www.youtube.com/embed/DEIN_LINK41"},
+            {name:"Plank (60 Sek.)", video:"https://www.youtube.com/embed/DEIN_LINK42"}
+          ],
+          tag3:[
+            {name:"Liegestütze (3×)", video:"https://www.youtube.com/embed/DEIN_LINK43"},
+            {name:"Ausfallschritte (3×)", video:"https://www.youtube.com/embed/DEIN_LINK44"},
+            {name:"Trizepsdrücken (3×)", video:"https://www.youtube.com/embed/DEIN_LINK45"}
+          ],
+          laufband:["20 Min Walken","25 Min Joggen","15 Min Intervall"]
+        },
+        papa:{
+          tag1:[
+            {name:"Brustpresse (4×)", video:"https://www.youtube.com/embed/DEIN_LINK46"},
+            {name:"Latzug (4×)", video:"https://www.youtube.com/embed/DEIN_LINK47"},
+            {name:"Butterfly (4×)", video:"https://www.youtube.com/embed/DEIN_LINK48"}
+          ],
+          tag2:[
+            {name:"Schulterdrücken (4×)", video:"https://www.youtube.com/embed/DEIN_LINK49"},
+            {name:"Bizepscurls (4×)", video:"https://www.youtube.com/embed/DEIN_LINK50"},
+            {name:"Crunches (4×)", video:"https://www.youtube.com/embed/DEIN_LINK51"}
+          ],
+          tag3:[
+            {name:"Beinpresse (4×)", video:"https://www.youtube.com/embed/DEIN_LINK52"},
+            {name:"Trizepsdrücken (4×)", video:"https://www.youtube.com/embed/DEIN_LINK53"},
+            {name:"Rudern am Kabel (4×)", video:"https://www.youtube.com/embed/DEIN_LINK54"}
+          ],
+          laufband:["8 Min Walken","12 Min Steigung","10 Min Intervall"]
+        }
+      }
+    ];
+
+    const monat = new Date().getMonth();           // 0 = Januar
+    const planIndex = Math.floor(monat/2) % 3;     // wechselt alle 2 Monate
+    const plan = allePlaene[planIndex];
+
+    function render(personKey, mountId){
+      const mount = document.getElementById(mountId);
+      mount.innerHTML = "";
+      [1,2,3].forEach((t)=>{
+        const col = document.createElement("div");
+        col.className = "col-lg-4 col-md-6";
+        const box = document.createElement("div");
+        box.className = "workout-day";
+        box.innerHTML = `<h4>Tag ${t}</h4><ul></ul><p><b>Laufband:</b> ${plan[personKey].laufband[t-1]}</p>`;
+        const ul = box.querySelector("ul");
+        plan[personKey]["tag"+t].forEach(ueb=>{
+          const li = document.createElement("li");
+          li.textContent = ueb.name;
+          const iframe = document.createElement("iframe");
+          iframe.src = ueb.video;
+          iframe.setAttribute("frameborder","0");
+          iframe.setAttribute("allowfullscreen","true");
+          ul.appendChild(li);
+          ul.appendChild(iframe);
+        });
+        col.appendChild(box);
+        mount.appendChild(col);
+      });
+    }
+
+    render("mama","mama-plans");
+    render("papa","papa-plans");
+  </script>
+</body>
+</html>
